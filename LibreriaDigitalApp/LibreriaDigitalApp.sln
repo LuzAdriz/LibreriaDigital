@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaDigital.WebApi", "LibreriaDigital.WebApi\LibreriaDigital.WebApi.csproj", "{2BCF0E13-A143-4944-BAA9-81388EC64404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BCF0E13-A143-4944-BAA9-81388EC64404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCF0E13-A143-4944-BAA9-81388EC64404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCF0E13-A143-4944-BAA9-81388EC64404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCF0E13-A143-4944-BAA9-81388EC64404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52759DB3-26AA-4EC6-9DEB-D32CC114B777}
+	EndGlobalSection
+EndGlobal

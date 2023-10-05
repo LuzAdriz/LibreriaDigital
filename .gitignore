@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/LibreriaDigitalApp/LibreriaDigital.WebApi/bin/Debug/net7.0
+/LibreriaDigitalApp/LibreriaDigital.WebApi/obj
+
+/LibreriaDigitalApp/.vs/LibreriaDigitalApp
