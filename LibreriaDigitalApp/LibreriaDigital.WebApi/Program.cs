@@ -26,8 +26,7 @@ app.UseRouting();
 app.UseEndpoints(Endpoint =>
 {
     Endpoint.MapControllers();
-}
-);
+});
 
 
 app.Run();

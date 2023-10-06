@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+    libreriaDigital-app-api:
+        image: libreriaDigital-app-api
+        build:
+          context: ./LibreriaDigital.WebApi
+          dockerfile: Dockerfile
+        ports:
+            -"8980:80"
+        networks:
+          -mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
