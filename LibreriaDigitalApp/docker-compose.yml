@@ -1,16 +1,32 @@
 version: '3.4'
 
 services:
-    libreriaDigital-app-api:
-        image: libreriaDigital-app-api
-        build:
-          context: ./LibreriaDigital.WebApi
-          dockerfile: Dockerfile
-        ports:
-            -"8980:80"
-        networks:
-          -mynetwork
+  todo-app-api:
+    image: todo-app-api
+    container_name: todo-app-api 
+    build:
+      context: ./libreriaDigital.WebApi
+      dockerfile: Dockerfile
+    ports:
+      - "8980:80"
+    networks:
+      - mynetwork
 
+  libreriaDigitalappsqlserver:
+    image: mcr.microsoft.com/mssql/server:latest 
+    container_name: libreriaDigitalappsqlserver
+    ports:
+      - "14330:1433"
+    environment:
+      - SA_PASSWORD=abc.123456
+      - ACCEPT_EULA=Y
+    networks:
+      - mynetwork      
+      
 networks:
   mynetwork:
     driver: bridge
+
+
+   
+      
