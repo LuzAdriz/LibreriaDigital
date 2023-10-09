@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibreriaDigital.WebApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231005000937_InitialCreate")]
+    [Migration("20231009215553_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
